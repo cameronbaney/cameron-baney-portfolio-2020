@@ -1,0 +1,12 @@
+@import './_variables.scss';
+
+body {
+  background: $darkBlue;
+  color: $foreground;
+  font-size: 16px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+a {
+  color: $linkColor;
+}
