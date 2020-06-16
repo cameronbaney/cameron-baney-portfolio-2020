@@ -16,11 +16,11 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-vue": "^6.2.1",
     "gridsome": "^0.7.0",
-    "gridsome-plugin-tailwindcss": "^2.2.36",
+    "gridsome-plugin-tailwindcss": "2.2.48",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
-    "tailwindcss": "^1.2.0",
+    "tailwindcss": "1.4.6",
     "vue-eslint-parser": "^7.0.0"
   }
 }
