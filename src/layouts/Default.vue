@@ -1,21 +1,20 @@
 <template>
-  <div>
-    <header class="header">
+  <div class="container mx-auto">
+    <header class="header grid grid-cols-2 gap-4 mb-8 pt-4">
       <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        <g-link class="text-2xl" to="/">Cameron Baney</g-link>
       </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">
+      <nav class="flex flex-row justify-end space-x-8">
+        <g-link class="text-xl" to="/">
           Home
         </g-link>
-        <g-link class="nav__link" to="/about/">
+        <g-link class="text-xl" to="/about/">
           About
         </g-link>
       </nav>
     </header>
-    <div class="container mx-auto px-4">
-      <slot />
-    </div>
+
+    <slot />
   </div>
 </template>
 
