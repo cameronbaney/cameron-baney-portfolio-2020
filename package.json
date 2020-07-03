@@ -2,6 +2,7 @@
   "name": "cameron-baney-portfolio",
   "private": true,
   "scripts": {
+    "start": "develop",
     "build": "gridsome build",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
